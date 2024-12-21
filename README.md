@@ -5,6 +5,17 @@
 sumaoang_cedric_final_site/
 ├── public/
 ├── src/
+|   ├── components/
+|   |   ├── BasicInfo.js
+|   |   ├── DeveloperSetup.js
+|   |   ├── Resources.js
+|   |   ├── Skills.js
+|   |   └──  WorkExperience.js
+|   ├── pages/
+|   |   ├── DeveloperSetupPage.js
+|   |   ├── HomePage.js
+|   |   ├── SkillsPage.js
+|   |   └──  WorkExperiencePage.js
 │   ├── App.js
 │   ├── App.css
 │   └── index.js
