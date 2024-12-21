@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-// Basic Information Section
+// Basic Information Section remains the same
 const BasicInfo = () => (
   <section id="basic-info">
     <h2>Cedric Sumaoang</h2>
@@ -32,14 +32,14 @@ const BasicInfo = () => (
   </section>
 );
 
-// Work Experience Section
+// Work Experience Section with updated image URL
 const WorkExperience = () => {
   const projects = [
     {
       title: "Drug Research Platform",
       description:
         "Created a platform to research therapeutics built with React, Next.js, D3, and Neo4j. Features include publication search, filter, and graph data analysis.",
-      image: "/images/drug.png",
+      image: "https://picsum.photos/id/41/200",
       link: "https://www.mlinsightsandmetrics.com/",
       techList: ["React", "Next.js", "Neo4j", "D3"],
     },
@@ -67,7 +67,7 @@ const WorkExperience = () => {
   );
 };
 
-// Skills Section
+// Skills Section remains the same
 const Skills = () => (
   <section id="skills">
     <h2>Skills</h2>
@@ -97,18 +97,18 @@ const Skills = () => (
   </section>
 );
 
-// Resources Section
+// Resources Section with updated image URLs
 const Resources = () => {
   const resources = [
     {
       title: "How to Build a Portfolio Website with React ",
-      image: "/images/document.png",
+      image: "https://picsum.photos/id/8/100",
       summary: "Comprehensive guide to create a developer portfolio.",
       link: "https://www.freecodecamp.org/news/build-portfolio-website-react/",
     },
     {
       title: "Build a Stunning Portfolio website with React JS ",
-      image: "/images/design.png",
+      image: "https://picsum.photos/id/1/100",
       summary:
         "Guide to build a portfolio which is different and unique with design and little bit animations.",
       link: "https://dev.to/codebucks/build-a-stunning-portfolio-with-react-js-p1",
@@ -134,7 +134,7 @@ const Resources = () => {
   );
 };
 
-// Developer Setup Section
+// Developer Setup Section remains the same
 const DeveloperSetup = () => (
   <section id="developer-setup">
     <h2>Developer Setup</h2>
